@@ -21,12 +21,16 @@ public class PlatfromGenerationSystem : MonoBehaviour {
 	public float gapHeight; //this is used to determine the gap between the patforms height 
 	private float heightDistance; //this is the distance between the heights 
 	private int platformNumber;  //this is used to store the random number generated to pick a random platform
-
+	private CollectableGenerationSystem collectablePool; // a reference to the collectable pool
+	public float numberOfCollectables; //this is used to determine whether the collectable will be generated on a platform
+	private TimeGeneratingSystem timePool; //used to reference the time pool
 	/*
 	this Function is used to set up variables used to place the platforms 
 	*/
 	void Start()
 	{
+		timePool = FindObjectOfType<TimeGeneratingSystem>(); 
+		collectablePool = FindObjectOfType<CollectableGenerationSystem>(); //find the collectable generator
 		platformLength = new float[objectPool.Length];  //create the platform length array to be the length of the object pool
 		fillPlatformArray(); //fill the object pool array with platforms 
 		maximumHeight = maximumHeightPlacement.position.y; //set the maximum height to be the y value of the place holder 
@@ -75,11 +79,22 @@ public class PlatfromGenerationSystem : MonoBehaviour {
 				heightDistance = minimumHeight; //set the height to be the minimum height
 			}
 			transform.position = new Vector3(transform.position.x + platformLength[platformNumber] + gapBetweenPlatforms,heightDistance,0); //set the position to be these values produced 
-
+			
 			GameObject platformToAdd = objectPool[platformNumber].getNotActivePoolObject(); //get the platform from the object pool
 			platformToAdd.transform.position = transform.position; //set the position of the platform
 			platformToAdd.transform.rotation = transform.rotation; //set the roation of the platform
 			platformToAdd.SetActive(true); //display the platform on the game 
+
+			if(Random.Range(0f,10f) < numberOfCollectables) //if the random number generated is less then the number allowed then 
+			{
+				collectablePool.placeCollectable(new Vector3(transform.position.x, transform.position.y + 3,0)); //add the collectable to the platform 
+			}
+
+			if(Random.Range(0f,15f) < numberOfCollectables) //if the random number generated is less then the number allowed then 
+			{
+				timePool.placeCollectable(new Vector3(transform.position.x -2, transform.position.y + 3,0)); 
+
+			}
 		}
 
 	}

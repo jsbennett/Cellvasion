@@ -8,8 +8,8 @@ public class EnemyGhostPlayerCollisionSystem : MonoBehaviour {
 	{
 		if(objectCollided.tag == "Player")
 		{
-			Debug.Break(); 
-			return; 
+			Destroy(objectCollided.gameObject);
+			Application.Quit(); 
 		}
 	}
 }

@@ -114,7 +114,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-4c0857e2a1babec0b31bcb1281e58925 Assembly-CSharp.dll:.PlatfromGenerationSystem
+4de5d72e0b49bb7cd83d1f85b0256054 Assembly-CSharp.dll:.PlatfromGenerationSystem
 42a5019be38709d626053b5f9d190518 Assembly-CSharp.dll:.CameraSystem
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EnemyGhostPlayerCollisionSystem
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
@@ -155,3 +155,10 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CleanUpSystem
 32e22d1302957f97fbedfc4303dea7a5 Assembly-CSharp.dll:.EnemyFlyingSystem
 ecb0a4791302e4689ca6d3ec4d1a1dc5 Assembly-CSharp.dll:.EnemyGhostGenerationSystem
+8a5e4e28ce983318b61284813e2817b6 Assembly-CSharp.dll:.ScoreSystem
+ae3170721c0c6aea3fd46aafe10e310e Assembly-CSharp.dll:.PickupSystem
+abb8600c230339eb23228e277710b453 Assembly-CSharp.dll:.CollectableGenerationSystem
+2c892730244c03cc08c8432bdba1b49d Assembly-CSharp.dll:.SpecialCollectablePickupSystem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SpecialCollectableSaveSystem
+76a4a4472b7f57c8a20dcb9d004ba086 Assembly-CSharp.dll:.TimePickupSystem
+840ca568b22a392a94b722e82e96d446 Assembly-CSharp.dll:.TimeGeneratingSystem

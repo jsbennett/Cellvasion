@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 212137556008565710}
   - component: {fileID: 95673406205130906}
   - component: {fileID: 50179155165318926}
-  - component: {fileID: 114505674265649446}
   - component: {fileID: 114212260160025970}
   - component: {fileID: 61647306161424710}
+  - component: {fileID: 114505674265649446}
   m_Layer: 10
   m_Name: EnemyPrefab
   m_TagString: Untagged
@@ -81,7 +81,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4, y: 1.45}
+    oldSize: {x: 1.2777778, y: 1.7777778}
     newSize: {x: 1.4, y: 1.45}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -171,7 +171,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300014, guid: 99d5515cd3aac4482823e863750f57ca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d76c9f41188874dd194f8fffe9d5762f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

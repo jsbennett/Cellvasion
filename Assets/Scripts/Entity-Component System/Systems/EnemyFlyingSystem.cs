@@ -27,11 +27,11 @@ public class EnemyFlyingSystem : MonoBehaviour {
 		playerDetected = Physics2D.OverlapCircle(transform.position, detectionRange, playerLayer); //check if the player is within the circle - returns true if they are and false if they are not 
 		if(playerDetected == true) //if the player is in the range of the enemy
 		{	
-			if(transform.position.x > 0 && !movingRight) //if facing right and wanting to move left
+			if(transform.position.x > 0 && movingRight) //if facing right and wanting to move left
 			{
 				changeDirection(); //change direction 
 			}
-			else if(transform.position.x < 0 && movingRight) //if facing left and wanting to move right
+			else if(transform.position.x < 0 && !movingRight) //if facing left and wanting to move right
 			{
 				changeDirection(); //change direction
 			}
