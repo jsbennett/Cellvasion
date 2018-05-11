@@ -2,7 +2,7 @@ OSXStandalone
 PlayerPath?
 /Users/jaybennett/Desktop/attempt.app
 SceneListBegin?
-Assets/Scenes/Levels/Level5.unity
+Assets/Scenes/Main Menu/MainMenu.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -16,6 +16,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+840ca568b22a392a94b722e82e96d446 Assembly-CSharp.dll:.TimeGeneratingSystem
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -92,6 +93,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+abb8600c230339eb23228e277710b453 Assembly-CSharp.dll:.CollectableGenerationSystem
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -115,7 +117,9 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 4de5d72e0b49bb7cd83d1f85b0256054 Assembly-CSharp.dll:.PlatfromGenerationSystem
+32e22d1302957f97fbedfc4303dea7a5 Assembly-CSharp.dll:.EnemyFlyingSystem
 42a5019be38709d626053b5f9d190518 Assembly-CSharp.dll:.CameraSystem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SpecialCollectableSaveSystem
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EnemyGhostPlayerCollisionSystem
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -132,6 +136,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+76a4a4472b7f57c8a20dcb9d004ba086 Assembly-CSharp.dll:.TimePickupSystem
 87b01c5f3d43d2a049ea821849489ecc Assembly-CSharp.dll:.ObjectPoolDesignPatternSystem
 81a5dc9138dada6d8578ce7fda604c49 Assembly-CSharp.dll:.PlayerSweeperCameraSystem
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -145,6 +150,9 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+ecb0a4791302e4689ca6d3ec4d1a1dc5 Assembly-CSharp.dll:.EnemyGhostGenerationSystem
+2c892730244c03cc08c8432bdba1b49d Assembly-CSharp.dll:.SpecialCollectablePickupSystem
+ae3170721c0c6aea3fd46aafe10e310e Assembly-CSharp.dll:.PickupSystem
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -153,12 +161,5 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 2bb65c83c7705bdd3d1c2ad2b970b92c Assembly-CSharp.dll:.PlayerMovementSystem
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CleanUpSystem
-32e22d1302957f97fbedfc4303dea7a5 Assembly-CSharp.dll:.EnemyFlyingSystem
-ecb0a4791302e4689ca6d3ec4d1a1dc5 Assembly-CSharp.dll:.EnemyGhostGenerationSystem
 8a5e4e28ce983318b61284813e2817b6 Assembly-CSharp.dll:.ScoreSystem
-ae3170721c0c6aea3fd46aafe10e310e Assembly-CSharp.dll:.PickupSystem
-abb8600c230339eb23228e277710b453 Assembly-CSharp.dll:.CollectableGenerationSystem
-2c892730244c03cc08c8432bdba1b49d Assembly-CSharp.dll:.SpecialCollectablePickupSystem
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SpecialCollectableSaveSystem
-76a4a4472b7f57c8a20dcb9d004ba086 Assembly-CSharp.dll:.TimePickupSystem
-840ca568b22a392a94b722e82e96d446 Assembly-CSharp.dll:.TimeGeneratingSystem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.QuitSystem
