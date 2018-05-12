@@ -3,6 +3,10 @@ PlayerPath?
 /Users/jaybennett/Desktop/attempt.app
 SceneListBegin?
 Assets/Scenes/Main Menu/MainMenu.unity
+Assets/Scenes/Main Menu/Instructions.unity
+Assets/Scenes/Main Menu/StoryIntro.unity
+Assets/Scenes/Levels/Level5.unity
+Assets/Scenes/Levels/Level4.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -161,5 +165,12 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 2bb65c83c7705bdd3d1c2ad2b970b92c Assembly-CSharp.dll:.PlayerMovementSystem
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CleanUpSystem
-8a5e4e28ce983318b61284813e2817b6 Assembly-CSharp.dll:.ScoreSystem
+13c2fa3420d2b5804e948a5893c6f753 Assembly-CSharp.dll:.ScoreSystem
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.QuitSystem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ReturnMainMenuSystem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InstructionsLoadSystem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InstructionsContinueSystem
+a408256f58920c1b722284b670f43e48 Assembly-CSharp.dll:.StateMachineSystem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InitalState
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.StartButtonSystem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlatformFallingSystem

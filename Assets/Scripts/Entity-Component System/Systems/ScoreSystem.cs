@@ -11,33 +11,31 @@ public class ScoreSystem : MonoBehaviour {
 	public float pointsMultiplier;  
 	public float timeRemaining = 30;
 	public float numberOfPointsGiven; 
-	public bool notDead = true; 
-
+	private StateMachineSystem stateMachine; 
+	
 	// Use this for initialization
-	void Start () {
-		
+	void Start() {
+		stateMachine = FindObjectOfType<StateMachineSystem>(); 
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if(notDead == true)
+		if(timeRemaining <= 0)
 		{
+			stateMachine.change(); 
+		}
+
+		//if(notDead == true)
+		//{
 			scoreEarned = scoreEarned + numberOfPointsGiven * pointsMultiplier * Time.deltaTime; //
 			timeRemaining = timeRemaining - Time.deltaTime; 
-		}
-		if(notDead == false)
+		//}
+		/*if(notDead == false)
 		{
 			PlayerPrefs.SetFloat("scoreEarned",scoreEarned); //save  the score 
-		}
+		}*/
 		playerScore.text = "Score: " + Mathf.Round(scoreEarned); //print the score out to the label 
 		timerLabel.text = "Time Remaining: " + Mathf.Round(timeRemaining); //print the amount of time remaining
-		if(timeRemaining == 0)
-		{
-			timeRemaining = 0; 
-			Application.Quit(); 
-			Debug.Break(); 
-			return; 
-		}
 	}
 
 	public void IncreaseScore(int valueToAdd)
