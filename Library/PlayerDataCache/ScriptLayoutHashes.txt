@@ -11,6 +11,8 @@ Assets/Scenes/Levels/Level3.unity
 Assets/Scenes/Levels/Level2.unity
 Assets/Scenes/Levels/Level1.unity
 Assets/Scenes/Levels/DeadLevel.unity
+Assets/Scenes/Main Menu/InfoScene.unity
+Assets/Scenes/Main Menu/CreditsScene.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -181,3 +183,8 @@ a408256f58920c1b722284b670f43e48 Assembly-CSharp.dll:.StateMachineSystem
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DeadLevelReturnHomeSystem
 5413852cb0c7618e6502c3f2673fd056 Assembly-CSharp.dll:.FinalScoreSystem
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MusicPlayerSystem
+edb89347a7fe33cc95534f31d43fb2ea Assembly-CSharp.dll:.Unlockables
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ReplaySystem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InitalState
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnlockableButtonSystem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InfoPageSystem
