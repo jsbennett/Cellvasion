@@ -8,6 +8,7 @@ TagManager:
   - collectable
   - SpecialCollectable
   - Time
+  - Platform
   layers:
   - Default
   - TransparentFX

@@ -7,6 +7,10 @@ Assets/Scenes/Main Menu/Instructions.unity
 Assets/Scenes/Main Menu/StoryIntro.unity
 Assets/Scenes/Levels/Level5.unity
 Assets/Scenes/Levels/Level4.unity
+Assets/Scenes/Levels/Level3.unity
+Assets/Scenes/Levels/Level2.unity
+Assets/Scenes/Levels/Level1.unity
+Assets/Scenes/Levels/DeadLevel.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -97,7 +101,8 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-abb8600c230339eb23228e277710b453 Assembly-CSharp.dll:.CollectableGenerationSystem
+c9c583d9deb7aedb4062620f82ff2e1c Assembly-CSharp.dll:.CollectableGenerationSystem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.StartButtonSystem
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -120,11 +125,15 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InstructionsContinueSystem
 4de5d72e0b49bb7cd83d1f85b0256054 Assembly-CSharp.dll:.PlatfromGenerationSystem
 32e22d1302957f97fbedfc4303dea7a5 Assembly-CSharp.dll:.EnemyFlyingSystem
+8f1eeca281d9136527849600ec14c272 Assembly-CSharp.dll:.PlatformFallingSystem
 42a5019be38709d626053b5f9d190518 Assembly-CSharp.dll:.CameraSystem
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SpecialCollectableSaveSystem
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EnemyGhostPlayerCollisionSystem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DisplayLevel
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.QuitSystem
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -140,6 +149,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ReturnMainMenuSystem
 76a4a4472b7f57c8a20dcb9d004ba086 Assembly-CSharp.dll:.TimePickupSystem
 87b01c5f3d43d2a049ea821849489ecc Assembly-CSharp.dll:.ObjectPoolDesignPatternSystem
 81a5dc9138dada6d8578ce7fda604c49 Assembly-CSharp.dll:.PlayerSweeperCameraSystem
@@ -165,12 +175,9 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 2bb65c83c7705bdd3d1c2ad2b970b92c Assembly-CSharp.dll:.PlayerMovementSystem
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CleanUpSystem
-13c2fa3420d2b5804e948a5893c6f753 Assembly-CSharp.dll:.ScoreSystem
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.QuitSystem
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ReturnMainMenuSystem
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InstructionsLoadSystem
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InstructionsContinueSystem
 a408256f58920c1b722284b670f43e48 Assembly-CSharp.dll:.StateMachineSystem
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InitalState
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.StartButtonSystem
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlatformFallingSystem
+13c2fa3420d2b5804e948a5893c6f753 Assembly-CSharp.dll:.ScoreSystem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InstructionsLoadSystem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DeadLevelReturnHomeSystem
+5413852cb0c7618e6502c3f2673fd056 Assembly-CSharp.dll:.FinalScoreSystem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MusicPlayerSystem

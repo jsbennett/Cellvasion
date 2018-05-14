@@ -17,8 +17,6 @@ public class CleanUpSystem : MonoBehaviour {
 		{
 			stateMachine.change(); 
 		}
-
-		
 		objectCollided.gameObject.SetActive(false); 
 	}
 }

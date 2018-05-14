@@ -12,6 +12,6 @@ public class StartButtonSystem : MonoBehaviour {
 
 	public void changeState()
 	{
-		stateMachine.change(); 
+		stateMachine.change();
 	}
 }

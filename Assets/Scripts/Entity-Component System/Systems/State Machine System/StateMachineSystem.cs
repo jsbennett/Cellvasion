@@ -25,7 +25,7 @@ public class StateMachineSystem : MonoBehaviour {
     	 	levelStates.Add("Level3",new Level3State()); //add level 3
     	 	levelStates.Add("Level2",new Level2State()); //add level 2
     	 	levelStates.Add("Level1",new Level1State()); //add level 1
-    	 	levelStates.Add("Level0",new DeadLevelState()); //add dead level
+    	 	levelStates.Add("DeadLevel",new DeadLevelState()); //add dead level
     	 	InitialState inital = new InitialState(); 
     	 	currentState = inital; 
     	 	currentStateID = "InitialState"; 
@@ -41,5 +41,9 @@ public class StateMachineSystem : MonoBehaviour {
     	currentState.Enter(); 
     }
 	
+    public string getCurrentLevel()
+    {
+        return currentStateID; 
+    }
 	
 }
